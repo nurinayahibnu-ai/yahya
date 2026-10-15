@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan Kelompok</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef5ff;
+            color: #183153;
+            text-align: center;
+        }
+        img{
+            height: 100%;
+            width: 50%;
+            border-radius: 30px;
+            border: solid;
+            color: #000;
+        }
+
+        header {
+            background: linear-gradient(135deg, #102a56, #3988e8);
+            color: white;
+            padding: 40px 15px;
+        }
+
+        header h1 {
+            font-size: 30px;
+        }
+
+        .salam {
+            padding: 25px 10px;
+        }
+
+        mark {
+            background: #ffdf70;
+            padding: 4px;
+            border-radius: 4px;
+        }
+
+        .kelompok {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .anggota {
+            background: white;
+            width: 280px;
+            padding: 25px 15px;
+            border-radius: 15px;
+            border-top: 5px solid #3988e8;
+            box-shadow: 0 5px 15px #00000015;
+        }
+
+        .avatar {
+            background: #dceaff;
+            width: 85px;
+            height: 85px;
+            border-radius: 50%;
+            margin: auto;
+            font-size: 45px;
+            line-height: 85px;
+        }
+
+        .anggota h2 {
+            color: #2468b5;
+        }
+
+        .anggota p {
+            background: #f1f6ff;
+            padding: 10px;
+            border-radius: 7px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        footer {
+            background: #102a56;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        
+
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 23px;
+            }
+
+            .anggota {
+                width: 100%;
+                max-width: 350px;
+            }
+        }
+        .hero-art img {
+  width: 100%;
+  border-radius: 15px;
+  border: 2px solid #287fe6;
+  }
+
+  
+#anggota {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+
+#anggota th,
+#anggota td {
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+#anggota {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+/* Mengatur tulisan di dalam tabel */
+#anggota th,
+#anggota td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+/* Mengatur lebar kolom */
+#anggota th:first-child,
+#anggota td:first-child {
+    width: 10%;
+}
+
+#anggota th:nth-child(2),
+#anggota td:nth-child(2) {
+    width: 50%;
+}
+
+#anggota th:last-child,
+#anggota td:last-child {
+    width: 40%;
+}
+
+    </style>
+</head>
+
+<body>
+
+
+
+    <header>
+        <h1>Selamat Datang Di Website Kami</h1>
+        <p>Kelompok 7</p>
+    </header>
+
+    <section class="salam">
+        <h2><b>Tugas 1</b></h2>
+
+        <p><i>Kami hadir untuk memperkenalkan anggota
+        kelompok kami melalui website sederhana
+        yang dibuat menggunakan HTML dan CSS</i></p>
+
+        <p><mark>Salam kenal dari kelompok kami!</mark></p>
+
+        <p><u>Kelompok 7</u></p>
+
+        <small>belajar bersama, berkembang bersama</small>
+    </section>
+
+    <section id="anggota"></section>
+    <h2><b>Tugas 2</b></h2>
+                    <h2> SELAMAT DATANG STRUKTUR ANGGOTA KAMI</h2>
+                    <table id="anggota" border="1">
+    <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Jurusan</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>MUH. YAHYA IBNU</td>
+        <td>TJKT 3</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>SYAHRINI</td>
+        <td>TJKT 3</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>SYAHRUL</td>
+        <td>TJKT 3</td>
+    </tr>
+</table>
+                    
+
+    </section>
+    <img src="p.jpg.jpg" alt="hero-art img">
+    <h2>Pemandangan Alam</h2>
+    <p><i>Keindahan Alam Yang Begitu Indah.</i></p>
+
+    <footer>
+        <p><b>Terima kasih telah mengunjungi website kami!</b></p>
+        <small>website perkenalan kelompok 7</small>
+    </footer>
+
+</body>
+</html>
